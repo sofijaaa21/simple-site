@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Почетна</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="customization.css">
+</head>
+<body id="pozadina">
+    <header>
+        <h1>Почетна</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Почетна</a></li>
+                <li><a href="vezbe.html">Вежбе</a></li>
+                <li><a href="ishrana.html">Исхрана</a></li>
+                <li><a href="planer.html">Планер</a></li>
+                <li><a href="kontakt.html">Контакт</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Добродошли на наш сајт</h2>
+            <p>Овде можете наћи корисне информације о вежбању,</p>
+			<p>здравој исхрани и планирању вашег тренинга.</p>
+			<img src="slike/welcome.jpg" alt="Welcome" class="exercise-image" >
+        </section>
+    </main>
+    <footer>
+        <div id="customization">
+            <h3>Подеси изглед странице</h3>
+            <form>
+                <label for="bojaTeme">Боја позадине:</label>
+                <select id="bojaTeme">
+                    <option value="white">Бела</option>
+                    <option value="lightgray">Сива</option>
+                    <option value="lightblue">Плава</option>
+                </select>
+                <br><br>
+                <label for="velicinaFonta">Величина фонта:</label>
+                <select id="velicinaFonta">
+                    <option value="12pt">Мала</option>
+                    <option value="16pt" selected>Средња</option>
+                    <option value="20pt">Велика</option>
+                </select>
+                <br><br>
+                <label for="bojaTeksta">Боја текста:</label>
+                <select id="bojaTeksta">
+                    <option value="black" selected>Црна</option>
+                    <option value="gray">Сива</option>
+                    <option value="blue">Плава</option>
+                </select>
+               
+                <br><br>
+                <input type="button" value="Сачувај" id="sacuvajPromene">
+            </form>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
